@@ -12,5 +12,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "ytdl-core": "^0.29.7"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }
