@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube Downloader</title>
+        <meta charset="utf-8" />
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style type="text/css">
+            #banner{
+                height:100vh;
+                background-image: linear-gradient(to right, white 20%, black 100%), url('./static/bg-image.jpg');
+                background-blend-mode: color-dodge;
+            }
+
+            #banner .container-fluid .jumbotron{
+                background: transparent;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="banner">
+            <div class="container-fluid">
+                <div class="jumbotron text-center">
+                    <h3>Ted's YouTube Downloader</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 offset-md-4">
+                        <form action="http://localhost:3000/download/" method="GET">
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="url" placeholder="https://www.youtube.com/watch?v=MtN1YnoL46Q" required />
+                            </div>
+                            <div class="form-group text-center">
+                                <input class="btn btn-primary" type="submit" value="Download" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
