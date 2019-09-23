@@ -15,7 +15,7 @@ In this folder, run the command -
 Paste the video link and download your favorite videos.
 
 ### Note
-It is not legal to download videos from YouTube unless the video is allowed to be doanloaded. Use this application wisely.
+It is not legal to download videos from YouTube unless the video is allowed to be downloaded. Use this application wisely.
 
 ### To-do
  - Error handling page.
@@ -23,6 +23,6 @@ It is not legal to download videos from YouTube unless the video is allowed to b
 
 ### Pull requests and issues
   - Feel free to raise issues if something is not working properly. 
-  - Feel free to clone the repository and raise pull requests with your modifications. If it is a good addition then it would be merged along with due credits.
+  - Feel free to fork the repository and raise pull requests with your modifications. If it is a good addition then it would be merged along with due credits.
   
 Happy coding!
